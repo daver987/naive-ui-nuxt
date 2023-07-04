@@ -22,6 +22,7 @@ export default defineNuxtConfig({
       ],
       compilerOptions: {
         resolveJsonModule: true,
+        target: 'es6',
         paths: {
           '~/nuxt/*': [
             '../playground-nuxt/*',

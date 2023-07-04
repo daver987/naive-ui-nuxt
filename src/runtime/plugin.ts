@@ -1,8 +1,9 @@
 import { setup } from '@css-render/vue3-ssr'
 
+import type { NuxtApp } from '#app'
 import { defineNuxtPlugin } from '#app'
 
-export default defineNuxtPlugin((nuxtApp) => {
+export default defineNuxtPlugin((nuxtApp: NuxtApp) => {
   const { collect } = setup(nuxtApp.vueApp)
 
   nuxtApp.hook('app:mounted', () => {
@@ -24,7 +25,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         }
         const originalMeta = originalRenderMeta()
         if ('then' in originalMeta) {
-          return originalMeta.then((resolvedOriginalMeta) => {
+          return originalMeta.then((resolvedOriginalMeta: any) => {
             return {
               ...resolvedOriginalMeta,
               headTags: resolvedOriginalMeta.headTags + collect(),

@@ -27,7 +27,7 @@ const plugin: VuePlugin = {
   },
 }
 
-export default defineNuxtPlugin((nuxtApp) => {
+export default defineNuxtPlugin((nuxtApp: any) => {
   const config = useRuntimeConfig()?.public?.naiveUI
   if (config)
     nuxtApp.vueApp.use(plugin, config)
