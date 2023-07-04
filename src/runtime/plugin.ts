@@ -13,7 +13,7 @@ export default defineNuxtPlugin((nuxtApp: NuxtApp) => {
   })
 
   if (process.server) {
-    nuxtApp.hook('app:rendered', ({ ssrContext }) => {
+    nuxtApp.hook('app:rendered', ({ ssrContext }: { ssrContext: any }) => {
       if (!ssrContext)
         return
       const originalRenderMeta = ssrContext.renderMeta
