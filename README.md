@@ -1,21 +1,18 @@
-![alt text](https://github.com/huntersofbook/naive-ui-nuxt/blob/main/.github/assets/naive-ui-nuxt.png?raw=true)
-
-# Naive UI Nuxt 3 Module
+# Forked Naive UI Nuxt 3 Module
 <br/>
 
 <p>
-      <a href="https://www.npmjs.com/package/@huntersofbook/naive-ui-nuxt"><img src="https://img.shields.io/npm/v/@huntersofbook/naive-ui-nuxt.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Version"></a>
-      <a href="https://www.npmjs.com/package/@huntersofbook/naive-ui-nuxt"><img src="https://img.shields.io/npm/dm/@huntersofbook/naive-ui-nuxt.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Downloads"></a>
+      <a href="https://www.npmjs.com/package/@daver987/naive-ui-nuxt"><img src="https://img.shields.io/npm/v/@huntersofbook/naive-ui-nuxt.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Version"></a>
+      <a href="https://www.npmjs.com/package/@daver987/naive-ui-nuxt"><img src="https://img.shields.io/npm/dm/@huntersofbook/naive-ui-nuxt.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Downloads"></a>
       <a href="./LICENSE"><img src="https://img.shields.io/github/license/huntersofbook/naive-ui-nuxt.svg?style=flat&colorA=002438&colorB=28CF8D" alt="License"></a>
-      <a href="https://github.com/huntersofbook/naive-ui-nuxt">
+      <a href="https://www.npmjs.com/package/@daver987/naive-ui-nuxt">
       <img src="https://img.shields.io/github/stars/huntersofbook/naive-ui-nuxt.svg?style=social&label=Star&maxAge=2592000" alt="Github Stars"> </a>
-      <a href="https://chat.huntersofbook.com"> <img src="https://img.shields.io/discord/1008640116564181023?color=7289da&label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
-</p>
+      
 
-### @huntersofbook/naive-ui-nuxt [![npm](https://img.shields.io/npm/v/@huntersofbook/naive-ui-nuxt.svg)](https://npmjs.com/package/@huntersofbook/naive-ui-nuxt)
+### @daver987/naive-ui-nuxt [![npm](https://img.shields.io/npm/v/@huntersofbook/naive-ui-nuxt.svg)](https://www.npmjs.com/package/@daver987/naive-ui-nuxt)
 <br/>
 
-This module huntersofbook team created.
+I forked this module huntersofbook team created.
 
 > [Naive UI](https://www.naiveui.com/en-US/light/components/button) integration for [Nuxt](https://nuxtjs.org)
 
@@ -27,20 +24,20 @@ This module huntersofbook team created.
 
 ## Setup
 ```
-pnpm add @huntersofbook/naive-ui-nuxt
+pnpm add @daver987/naive-ui-nuxt
 ```
 ```
-yarn add @huntersofbook/naive-ui-nuxt
+yarn add @daver987/naive-ui-nuxt
 ```
 ```
-npm add @huntersofbook/naive-ui-nuxt
+npm add @daver987/naive-ui-nuxt
 ```
 ### Nuxt Config
 
 ```ts
 export default defineNuxtConfig({
   modules: [
-    '@huntersofbook/naive-ui-nuxt'
+    '@daver987/naive-ui-nuxt'
   ],
 
   // Optionally, specify global naive-ui config
@@ -99,24 +96,6 @@ https://tailwindcss.com/docs/preflight#disabling-preflight
 - Install dependencies using `pnpm install`
 - Stub module with `pnpm dev:prepare`
 - Run `pnpm dev` to start [playground](./playground) in development mode
-
-
-## Thanks
-
-Thanks to [@07akioni](https://github.com/07akioni), this project is heavily inspired by [naive-ui-nuxt-demo](https://github.com/07akioni/naive-ui-nuxt-demo).
-
-Thanks to [@tobiasdiez](https://github.com/tobiasdiez), this project is inspired by some code structure.
-z
-
-
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/oku-ui/static/sponsors/sponsors.svg">
-    <img alt="sponsors" src='https://cdn.jsdelivr.net/gh/oku-ui/static/sponsors/sponsors.svg'/>
-  </a>
-</p>
-
 
 ## License
 
